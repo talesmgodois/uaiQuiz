@@ -1,0 +1,19 @@
+{
+  "name": "migrations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typeorm:migrate": "ts-node node_modules/typeorm/index.js migration:generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "ts-node": "^10.7.0",
+    "typeorm": "^0.2.45",
+    "yarn": "^1.22.17"
+  }
+}
