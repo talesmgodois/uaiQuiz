@@ -1,0 +1,1 @@
+alter table users ADD COLUMN "hash_password" VARCHAR(512) NOT NULL;
